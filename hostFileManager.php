@@ -1,4 +1,11 @@
 <?php
+/*
+    created By: AmirAdabi
+    Email : amir.cyber96@gmail.com
+    website : appsupp.ir
+*/
+
+
 function delete_directory($dirname) {
     if (is_dir($dirname))
         $dir_handle = opendir($dirname);
